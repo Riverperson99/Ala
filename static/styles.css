@@ -1,0 +1,97 @@
+/* Banner superior */
+.banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px; /* Ajusta el alto según sea necesario */
+	background-color: #850c0c; /* Color de fondo */
+	z-index: 1000; /* Asegura que aparezca encima de otros elementos */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.731); /* Sombra para separarlo del contenido */
+  }
+  
+.banner h1 {
+	text-align: center;
+	color: #ffffff;
+	line-height: 100px; /* Ajusta el alto del texto al mismo nivel que el banner */
+  }
+  
+
+
+
+.card {
+    margin-bottom: 20px; /* Espacio debajo de cada carta */
+}
+
+.needspace {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+:root {
+  --color0: #ff9999;
+  --color1: #99ff99;
+  --color2: #cccccc;
+  --color3: #ffcc99;
+  --color4: #ccff99;
+  --color5: #ff99cc;
+}
+
+.card {
+  background-color: var(--bg);
+}
+
+:root {
+	--color0: #ff9999;
+	--color1: #99ff99;
+	--color2: #cccccc;
+	--color3: #ffcc99;
+	--color4: #ccff99;
+	--color5: #ff99cc;
+  }
+  
+  .rema {
+	background-color: var(--bg);
+  }
+
+#topdiv1, #topdiv0{
+	margin-left: 20%;
+	margin-right: 30%;
+	margin-top: 5%;
+	background-color: #b7bed6;
+}
+
+
+
+
+#topdiv4, #topdiv5{
+	margin-top: 5%;
+	padding-bottom: 20px;
+	
+}
+
+#topdiv6{
+	margin-top: 3%;
+	padding-bottom: 20px;
+	
+}
+
+#index0, #index1{
+	padding-top: 30px;
+}
+
+#topdiv2, #topdiv5{
+	background-color: #eac6c6;
+}
+
+#topdiv2, #topdiv3{
+	margin-top: 2%;
+	margin-left: 10%;
+	display: none;
+}
+
+.needspace{
+	margin-left: 15px;
+}

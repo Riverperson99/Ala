@@ -10,7 +10,7 @@ from flask_session import Session
 from helpers import login_required
 from flask import send_file
 from sqlalchemy import create_engine
-
+const port = process.env.PORT || 4000;
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///items.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
